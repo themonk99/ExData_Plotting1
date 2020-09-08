@@ -26,5 +26,5 @@ with(powerdatasub, {
              ylab="Global Rective Power (kilowatts)",xlab="")
 })
 
-png("plot4.png", width=480, height=480)
+dev.print(png, "plot4.png", width=480, height=480)
 dev.off()

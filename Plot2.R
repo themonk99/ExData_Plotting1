@@ -15,5 +15,5 @@ with(powerdatasub, {
              ylab="Global Active Power (kilowatts)", xlab="")
 })
 
-png("plot2.png", width=480, height=480)
+dev.print(png, "plot2.png", width=480, height=480)
 dev.off()
